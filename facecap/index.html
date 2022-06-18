@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="./main.css">
+  <title>Lab3 :)111</title>
+  <meta charset="utf-8">
+  <script src="../node_modules/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="../node_modules/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+  <script src="../node_modules/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="../node_modules/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script>
+
+
+  <script type = "importmap">
+    {
+        "imports" : {
+            "three" : "./node_modules/three/build/three.module.js"
+        }         
+    }
+  </script>
+</head>
+
+<body>
+  <div id="info">
+    Touch & Drag - Move a light (on near plane) <br>
+    Zoom Action - Move the near plane
+    <p id="test">test</p>
+  </div>
+  <div class="container">
+    <video class="input_video" playsinline loop style="display:none" width="640" height="480">
+    </video>
+    <video class="input_recorded_video" playsinline loop style="display:none" width="640" height="480"
+      src="../video1.mov"  loop hidden controls autoplay muted="muted">
+    </video>
+    <canvas class="output_canvas"></canvas>
+  </div>
+  <script type="module" src="facecap.js"></script>
+</body>
+
+</html>

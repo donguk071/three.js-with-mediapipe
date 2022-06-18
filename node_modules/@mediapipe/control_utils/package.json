@@ -1,0 +1,27 @@
+{
+  "name": "@mediapipe/control_utils",
+  "version": "0.6.1629159505",
+  "description": "Mediapipe Simple Control Panel",
+  "main": "control_utils.js",
+  "module": "control_utils.js",
+  "jsdelivr": "control_utils.js",
+  "unpkg": "control_utils.js",
+  "types": "index.d.ts",
+  "author": "mhays@google.com",
+  "license": "Apache-2.0",
+  "homepage": "https://google.github.io/mediapipe/solutions",
+  "keywords": [ "AR", "ML", "Augmented" ],
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
+  "browser": {
+    "node-fetch": false,
+    "util": false,
+    "crypto": false
+  },
+  "sideEffects" : []
+}

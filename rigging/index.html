@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="../node_modules/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="../node_modules/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+  <script src="../node_modules/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="../node_modules/@mediapipe/holistic/holistic.js" crossorigin="anonymous"></script>
+  <script src="../node_modules/@mediapipe/pose/pose.js" crossorigin="anonymous"></script>
+  <script src="../node_modules/ammo.js" crossorigin="anonymous"></script>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "../node_modules/three/build/three.module.js"
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="container" id="container">
+    <video class="input_video" src="../pose_2_mov/pose_2_mov.mp4" loop muted></video>
+    <canvas class="output_canvas" width="820px" height="462px"></canvas>
+  </div>
+  <script type="module" src="./lab_class.js"></script>
+</body>
+</html>

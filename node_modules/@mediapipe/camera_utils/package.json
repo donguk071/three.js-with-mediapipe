@@ -1,0 +1,27 @@
+{
+  "name": "@mediapipe/camera_utils",
+  "version": "0.3.1640029074",
+  "description": "Mediapipe Camera Utilities",
+  "main": "camera_utils.js",
+  "module": "camera_utils.js",
+  "jsdelivr": "camera_utils.js",
+  "unpkg": "camera_utils.js",
+  "types": "index.d.ts",
+  "author": "mhays@google.com",
+  "license": "Apache-2.0",
+  "homepage": "https://google.github.io/mediapipe/solutions/pose",
+  "keywords": [ "AR", "ML", "Augmented" ],
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
+  "browser": {
+    "node-fetch": false,
+    "util": false,
+    "crypto": false
+  },
+  "sideEffects" : []
+}
