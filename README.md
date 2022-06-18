@@ -36,6 +36,9 @@ project using media pipe and three js.
 In order to operate the code, the video must be inserted or modifiy code to use a camera instead of a video.
 (https://google.github.io/mediapipe/solutions/holistic.html)
 
+
+## 1.face cap   
+
 ![image](https://user-images.githubusercontent.com/75608078/174450356-d7a39164-67a2-45c2-a581-c924ffc56749.png)
 
 Eye, eyebrow, mouth, and mouth-tail forehead are implemented, and you can see a variety of tasks such as scale and vector settings to make the model move in line with the user
