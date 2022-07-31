@@ -17,7 +17,7 @@ gld 모델에 mediapipe로 인식한 사용자에 표정 변화에 따라 애니
 
 
 
-## 2.riggin avatar 
+## 2.rigging avatar 
 
 glb 모델에 mediapipe로 인식한 사용자에 자세 변화에 따라 애니메이션에 적용하는 프로젝트 입니다.
 
@@ -45,7 +45,7 @@ In order to operate the code, the video must be inserted or modifiy code to use 
 Eye, eyebrow, mouth, and mouth-tail forehead are implemented, and you can see a variety of tasks such as scale and vector settings to make the model move in line with the user
 
 
-## 2.riggin avatar 
+## 2.rigging avatar 
 
 project that applies to animation according to pose change of users by mediapipe and glb model.
 
